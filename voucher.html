@@ -1,0 +1,5 @@
+<h1>Your voucher: <span id="voucher">Loading...</span></h1>
+
+<script>
+  document.getElementById("voucher").innerHTML = (new URLSearchParams(window.location.search)).get("voucher");
+</script>
